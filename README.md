@@ -14,3 +14,8 @@ A responsividade foi implementada através de técnicas como media queries e lay
 
 Por fim, a página possui informações como o endereço físico, informações de contato e links para mídias sociais (Instagram e Twitter).
 </p>
+
+<div align="start">
+<img src="https://github.com/LucasSanOliv/hensui-japanese-couisine/blob/main/assets/print-hensui.jpg" 
+     width="80%"/>
+</div>
