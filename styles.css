@@ -204,7 +204,11 @@ main{
     margin-top: 1rem;
 }
 
-@media (max-width: 64rem) {
+.locationContactSection p {
+    font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
 
     main{
         max-width: 100vw;
@@ -215,11 +219,43 @@ main{
         
     }
 
+    .imageLogoSection{
+        width: 100%;
+        height: fit-content;
+        position: relative;
+        
+    }
+
+    .imageContainer{
+        width: 100%;
+        height: fit-content;
+        
+    }
+
+    .hensuiImage{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .logoContainer{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .hensuiLogo{
+        width: 40%;
+        height: 20%;
+        position: absolute;
+        margin-left: 32%;
+        margin-top: 8%;
+    }
+
     
     .mainSection{
-        width: auto;
+        width: 100%;
         display: flex;
-        flex-direction: column-reverse; /* comando que inverte o fluxo na main e leva os ícones para o fim da página   */
+        flex-direction: column-reverse; 
         justify-content: space-between;
         align-items: center;
         margin: 0;
@@ -238,31 +274,7 @@ main{
         
     }
 
-    .imageContainer{
-        width: auto;
-        height: fit-content;
-        
-    }
-
-    .hensuiImage{
-        width: auto;
-        height: 100%;
-        max-height: 40.5rem; /* comando que limita a altura da imagem e evita as distorções no fluxo em coluna*/
-        object-fit: cover;
-    }
-
-    .logoContainer{
-        width: 100%;
-        height: fit-content;
-    }
-
-    .hensuiLogo{
-        width: 12rem;
-        height: auto;
-        position: absolute;
-        margin-left: 10.5rem;
-        margin-top: 3.25rem;
-    }
+    
     
     .socialHeader{
         width: 100%;
@@ -282,13 +294,13 @@ main{
     .introBox{
         width: auto;
         height: auto;
-        margin: 1rem 0;
+        margin: 1rem;
     }
     
     .chopstickBar{
         width: auto;
         max-width: 100%;
-        height: 1.5rem;
+        height: 1.9rem;
     }
     
     .newsletterForm{
@@ -298,7 +310,7 @@ main{
     }
     
     .emailInput{
-        flex-grow: 1; /* comando que permite ao input ocupar todo o espaço disponível no elemento form, no fluxo em coluna*/
+        flex-grow: 1; 
         height: 3rem;
         border: 0.0625rem solid var(--main-color);
         padding-left: 1rem;
@@ -311,7 +323,7 @@ main{
     }
     
     .submitButton{
-        flex-grow: 1; /* comando que permite ao botão ocupar todo o espaço disponível no elemento form, no fluxo em coluna*/
+        flex-grow: 1; 
         height: 3rem;
         background: var(--main-color);
         border-radius: 0.3125rem;
@@ -341,21 +353,25 @@ main{
     
     
     .introSocialSection h1{
-        font-size: 48px;
+        font-size: 56px;
         color: var( --main-color);
     }
     
     .introText, .newsletterInfoText{
-        font-size: 1.375rem;
+        font-size: 1.6rem;
         color: #000000;
         margin-top: 1rem;
         width: fit-content;
     }
     
     .introSocialSection h2{
-        font-size: 1.125rem;
+        font-size: 1.4rem;
         color: var(--main-color);
         margin-top: 1rem;
+    }
+
+    .locationContactSection p {
+        font-size: 1.2rem;
     }
 }
 
